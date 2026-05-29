@@ -9,12 +9,12 @@ The site is a lightweight Next.js multimedia portfolio designed as a cinematic a
 The local site is running as a modular archive operating system with:
 
 - cinematic landing transmission interface
-- instructions page with archive chart and QR transmission node
+- instructions page with archive chart, guide video, and QR transmission node
 - layered environmental hub
 - IO project routes
 - Timeline I/O route
 - structured content and asset registries
-- lightweight CSS motion, scanlines, and reduced-motion support
+- lightweight CSS motion, scanlines, subtle glitch hover states, and reduced-motion support
 
 ## Local Development
 
@@ -27,6 +27,12 @@ Open:
 
 ```text
 http://127.0.0.1:3000
+```
+
+Current local workspace:
+
+```text
+C:\Users\MHill\Documents\FOL IO
 ```
 
 ## Build Check
