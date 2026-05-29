@@ -1,36 +1,42 @@
 # PORTFOL I/O
 
-GitHub holding space for the Luke Hillhouse PORTFOL I/O website.
+Luke Hillhouse portfolio website for the PORTFOL I/O project.
 
-This repository is intended to host the source for a lightweight Next.js multimedia portfolio: cinematic archive, classified research interface, architectural operating system, and analogue-digital transmission environment.
+The site is a lightweight Next.js multimedia portfolio designed as a cinematic archive, classified research interface, architectural operating system, and analogue-digital transmission environment.
 
-## Current Local Project
+## Current Status
 
-The working site currently lives locally in:
+The local site is running as a modular archive operating system with:
 
-```text
-C:\Users\MHill\Documents\LDH IO
+- cinematic landing transmission interface
+- instructions page with archive chart and QR transmission node
+- layered environmental hub
+- IO project routes
+- Timeline I/O route
+- structured content and asset registries
+- lightweight CSS motion, scanlines, and reduced-motion support
+
+## Local Development
+
+```bash
+npm install
+npm run dev
 ```
 
-Stack:
+Open:
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- CSS variables/design tokens
-- Lightweight CSS motion and scanline effects
+```text
+http://127.0.0.1:3000
+```
 
-## Hosting Direction
+## Build Check
 
-Recommended first hosting path:
+```bash
+npm run lint
+npm run build
+```
 
-1. Push the local Next.js source into this repository.
-2. Connect this repository to Vercel for live hosting.
-3. Keep GitHub as the source archive and version history.
-4. Use GitHub Pages only if we later convert the site to a static export workflow.
-
-## Key Routes
+## Main Routes
 
 - `/`
 - `/instructions`
@@ -41,6 +47,50 @@ Recommended first hosting path:
 - `/io4`
 - `/xfm`
 
-## Notes
+## Content Structure
 
-The project should remain restrained, modular, fast, and expandable. Avoid heavy animation systems, WebGL, autoplay media, and generic template portfolio structure.
+Project metadata:
+
+```text
+data/projects.ts
+```
+
+Global site copy and system labels:
+
+```text
+src/data/siteContent.ts
+```
+
+Navigation map:
+
+```text
+src/data/siteMap.ts
+```
+
+Archive assets and external transmissions:
+
+```text
+src/data/archiveRegistry.ts
+```
+
+Reusable portfolio links:
+
+```text
+src/data/portfolioLinks.ts
+```
+
+Static assets:
+
+```text
+public/assets
+```
+
+## Hosting Space
+
+GitHub repository:
+
+```text
+https://github.com/iostudioanon-dot/POERTFOLI_O
+```
+
+Recommended first deployment path: connect this repository to Vercel and use the default Next.js build settings after the full local source has been pushed into the repo.
