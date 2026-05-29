@@ -16,6 +16,12 @@ GitHub should act as:
 
 ## Current Local Readiness
 
+The local project lives at:
+
+```text
+C:\Users\MHill\Documents\FOL IO
+```
+
 The local project already has:
 
 - `package.json` with `dev`, `build`, `start`, and `lint` scripts
@@ -27,7 +33,9 @@ The local project already has:
 - archive assets and external transmissions in `src/data/archiveRegistry.ts`
 - reusable links in `src/data/portfolioLinks.ts`
 - public asset folders for instructions, project media, links, games, apps, and timeline documents
+- instruction assets including the black-and-white chart, QR image, and guide video
 - responsive styling and lightweight CSS atmosphere
+- CSS-only glitch hover/focus effects with reduced-motion support
 - successful local production build
 
 ## Current Routes
@@ -44,7 +52,7 @@ The local project already has:
 ## Next Steps
 
 1. Turn the local workspace into a proper Git checkout or install Git locally.
-2. Push all local project files into `iostudioanon-dot/POERTFOLI_O`.
+2. Push all local project files from `C:\Users\MHill\Documents\FOL IO` into `iostudioanon-dot/POERTFOLI_O`.
 3. Import the repository into Vercel.
 4. Use default Vercel build settings:
    - Framework: Next.js
