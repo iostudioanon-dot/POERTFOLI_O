@@ -12,29 +12,46 @@ GitHub should act as:
 - version history
 - deployment source for Vercel
 - future collaboration/review space
+- public project documentation while the local source is being prepared for upload
 
-## Current Readiness
+## Current Local Readiness
 
 The local project already has:
 
 - `package.json` with `dev`, `build`, `start`, and `lint` scripts
 - Next.js App Router routes
-- reusable components
-- structured project metadata
-- public asset folders
-- responsive styling
+- reusable archive/interface components
+- structured project metadata in `data/projects.ts`
+- global site copy in `src/data/siteContent.ts`
+- navigation data in `src/data/siteMap.ts`
+- archive assets and external transmissions in `src/data/archiveRegistry.ts`
+- reusable links in `src/data/portfolioLinks.ts`
+- public asset folders for instructions, project media, links, games, apps, and timeline documents
+- responsive styling and lightweight CSS atmosphere
 - successful local production build
+
+## Current Routes
+
+- `/`
+- `/instructions`
+- `/hub`
+- `/io1`
+- `/io2`
+- `/io3`
+- `/io4`
+- `/xfm`
 
 ## Next Steps
 
-1. Push all local project files into this repository.
-2. Import `iostudioanon-dot/POERTFOLI_O` into Vercel.
-3. Use default Vercel build settings:
+1. Turn the local workspace into a proper Git checkout or install Git locally.
+2. Push all local project files into `iostudioanon-dot/POERTFOLI_O`.
+3. Import the repository into Vercel.
+4. Use default Vercel build settings:
    - Framework: Next.js
    - Install command: `npm install`
    - Build command: `npm run build`
    - Output: Vercel default
-4. Add a custom domain later if needed.
+5. Add a custom domain later if needed.
 
 ## GitHub Pages Alternative
 
